@@ -1,0 +1,27 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, #00b4db, #0083b0);
+  color: #fff; 
+}
+
+.flashcard {
+  width: 200px;
+  height: 150px;
+  perspective: 1000px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.flashcard:hover {
+  transform: scale(1.05);
+}
+
+.flashcard-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
